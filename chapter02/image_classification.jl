@@ -4,6 +4,7 @@ using MLUtils: splitobs
 using Flux: onehotbatch
 using Flux: DataLoader
 using Flux: logitcrossentropy
+using Flux: onecold
 
 #Loading up our CIFAR10 training and testing datasets
 images, labels = CIFAR10.traindata() # loading the train dataset
